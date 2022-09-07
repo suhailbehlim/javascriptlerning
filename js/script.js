@@ -149,33 +149,33 @@
 // init();
 
 
-// javascript exercises
-const marksMass =78;
-const MarksHeight = 1.69;
-const johnsMass =92;
-const johnsHeight = 1.95;
+// // javascript exercises
+// const marksMass =78;
+// const MarksHeight = 1.69;
+// const johnsMass =92;
+// const johnsHeight = 1.95;
 
-const BMIMark = marksMass/MarksHeight ** 2;
-const BMIjohn = johnsMass/johnsHeight ** 2;
+// const BMIMark = marksMass/MarksHeight ** 2;
+// const BMIjohn = johnsMass/johnsHeight ** 2;
 
-const heightHigh = BMIMark>BMIjohn;
-console.log(BMIMark,BMIjohn);
-console.log(heightHigh);
+// const heightHigh = BMIMark>BMIjohn;
+// console.log(BMIMark,BMIjohn);
+// console.log(heightHigh);
 
 
-//strings 
-const person ="suhail";
-const job ="Developer";
-const BirthYear = 2000;
-const currentYear =2022;
+// //strings 
+// const person ="suhail";
+// const job ="Developer";
+// const BirthYear = 2000;
+// const currentYear =2022;
 
-const detailsAll ="I am"+" "+ person+ " " + "and i am a "+ job + " "+"and my age is" + " "+(currentYear-BirthYear);
-//we can also done it by literles-
-const detailsAllagain =`I am ${person} and i am a ${job} and my age is ${(currentYear-BirthYear)}`;
-console.log(detailsAll);
-console.log(detailsAllagain);
+// const detailsAll ="I am"+" "+ person+ " " + "and i am a "+ job + " "+"and my age is" + " "+(currentYear-BirthYear);
+// //we can also done it by literles-
+// const detailsAllagain =`I am ${person} and i am a ${job} and my age is ${(currentYear-BirthYear)}`;
+// console.log(detailsAll);
+// console.log(detailsAllagain);
 
-console.log(`this is \n multiline \n practices`);
+// console.log(`this is \n multiline \n practices`);
 
 //using prompt box
 //  const luckynumber = Number(prompt("what is your lucky number?"));
@@ -190,22 +190,60 @@ console.log(`this is \n multiline \n practices`);
 //  }
 
 
- //switch cases-
+//  //switch cases-
  
- const day ="sunday";
+//  const day ="sunday";
 
- switch(day){
-  case  'sunday' :
-    console.log("happy leave today");
-    break;
-    case'monday':
-    console.log("Go to the work Bro");
-    break;
-    default:
-        console.log("hota he chalta he keep working");
- }
+//  switch(day){
+//   case  'sunday' :
+//     console.log("happy leave today");
+//     break;
+//     case'monday':
+//     console.log("Go to the work Bro");
+//     break;
+//     default:
+//         console.log("hota he chalta he keep working");
+//  }
+
+//  'use strict';
+//  let hasDriversLicense = false;
+//  const passTest =true;
+ 
+//  if (passTest) hasDriversLicense= true;
+//  if (hasDriversLicense) console.log("i can drive"); 
+
+
+// //function with capturing a value in variable
+// function fruitprocessor(apple,orange){
+//    console.log(apple ,orange);
+//    const juice =`the juice of ${apple} apple and ${orange} oranges`;
+//    return juice;
+// }
+// const alljuice =fruitprocessor(5,8);   //here we capture the value 
+// console.log(alljuice);
+
+// const againalljuice = fruitprocessor(10,15);
+// console.log(againalljuice);
+
+
+// //practice 
+//  const calcAge = function (birthdate){
+//    return 2037-birthdate;
+//    const myBirthdate = `Age: ${birthdate} is `
+//  }
+
+//  const Age=calcAge(20);
+//  console.log(Age);
 
 
 
+//Arrow function
 
+const calAverage =(a,b,c)=> (a+ b+ c)/3;
+console.log(calAverage(3, 4 , 5));
 
+// test1
+const suhailAverage = calAverage(20,50,7);
+const developer = calAverage(7,80,80);
+
+console.log(suhailAverage, developer);
